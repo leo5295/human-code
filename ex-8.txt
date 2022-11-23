@@ -1,0 +1,27 @@
+PROBLEMA: CONTARE I POSTI A TAVOLA DI 2 IN 2
+
+contare gli invitati
+ci sono 8 persone
+mi avvicino alla tavola
+conto i posti di 2 in 2
+inizio il conteggio dei posti disponibili
+    SE i posti sono 2
+        SE i posti sono 4
+            SE i posti sono 6
+                SE i posti sono 8
+                ALTRIMENTI
+                    SE il numero è dispari
+                    aggiungo un posto
+                ALTRIMENTI aggiungo due posti
+            ALTRIMENTI
+                SE il numero è dispari
+                aggiungo 3 posti
+            ALTRIMENTI aggiungo 4 posti
+        ALTRIMENTI
+            SE il numero è dispari
+            aggiungo 5 posti
+        ALTRIMENTI aggiungo 6 posti
+    ALTRIMENTI
+        SE il numero è dispari
+        aggiungo 7 posti
+    ALTRIMENTI aggiungo 8 posti
